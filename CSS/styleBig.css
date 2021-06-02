@@ -1,0 +1,9 @@
+.navigationWeb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hamburgerWeb{
+    display: none;
+}

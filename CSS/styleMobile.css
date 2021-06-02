@@ -1,0 +1,37 @@
+
+    .HideMobile {
+        display: none;
+    }
+
+    .ShowMobile{
+        display: inline-block;
+        background-color: yellow !important;
+    }
+
+    .logoMobile{
+        /* margin-right: auto; */
+        display: block;
+        float: left;
+        margin-left: 30px;
+        /* margin-top: 10px; */
+    }
+    
+    .hamburger {
+        width: 30px;
+        float: right;
+        margin: 25px;
+    }
+
+    .navigationMobile {
+        background-color: #AA42A5;
+        height: 100px;
+        width: 100%;
+    }
+
+    .footerTextMobile{ 
+        width: 100px;
+    }
+    
+    .socialMediaMobile {
+        margin: 10px;
+    }

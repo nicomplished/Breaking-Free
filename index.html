@@ -21,6 +21,8 @@
         <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
       
         <link href="CSS/style.css" rel="stylesheet" type="text/css">
+        <!-- <link href="CSS/styleMobile.css" rel="stylesheet" type="text/css"> -->
+        <link href="CSS/styleBig.css" rel="stylesheet" type="text/css">
 
         
 
@@ -31,17 +33,21 @@
 
     <!-- NAV HERE -->
 
-                <nav class="inline-block navigation">
+                <nav class="inline-block navigation navigationWeb navigationMobile">
                     
-                    <img src="images/Logo with Name-white.png" class="inline-block logo">
+                    <img src="images/Logo with Name-white.png" class="inline-block logo logoMobile" style="min-width: 170px;">
+                    <img src="images/hamburger.png" class="inline-block hamburger hamburgerWeb">
 
-                    <ul class="inline-block NavContent">
-                        <li class="inline-block"><a class="navButton inline-block">OUR PROGRAMS</a></li>
-                        <li class="inline-block"><a class="navButton inline-block">RESOURCES</a></li>
-                        <li class="inline-block"><a class="navButton inline-block">GET INVOLVED</a></li>
-                        <li class="inline-block"><a class="navButton inline-block">ABOUT US</a></li>
-                        <li class="inline-block"><a class="donateButton inline-block">DONATE</a></li>
+
+                    <ul class="inline-block NavContent HideMobile">
+                        <li class="inline-block"><a class="navButton inline-block HideMobile">OUR PROGRAMS</a></li>
+                        <li class="inline-block"><a class="navButton inline-block HideMobile">RESOURCES</a></li>
+                        <li class="inline-block"><a class="navButton inline-block HideMobile">GET INVOLVED</a></li>
+                        <li class="inline-block"><a class="navButton inline-block HideMobile">ABOUT US</a></li>
+                        <li class="inline-block"><a class="donateButton inline-block HideMobile">DONATE</a></li>
                     </ul>
+
+
                 </nav>
         
 
@@ -64,11 +70,11 @@
 
             <ul class="col-7">
                 <li class="inline-block"><img src="images/Phone.png" class="footerIcons"></li>
-                <li class="inline-block"><p>651-645-6557 Daytime 651-219-9287 After hours & weekends</p></li>
+                <li class="inline-block footerTextMobile"><p>651-645-6557 Daytime 651-219-9287 After hours & weekends</p></li>
             </ul>
 
             <ul class="icons col-5">
-                <li class="inline-block"> <img src="images/FB.png" class="socialMedia"> </li>
+                <li class="inline-block"> <img src="images/FB.png" class="socialMedia socialMediaMobile"> </li>
                 <li class="inline-block"> <img src="images/IG.png" class="socialMedia"> </li>
                 <li class="inline-block"> <img src="images/LI.png" class="socialMedia"> </li>
                 <li class="inline-block"> <img src="images/Twitter.png" class="socialMedia"> </li>
@@ -80,7 +86,7 @@
         <div class="row">
             <ul class="col-7">
                 <li class="inline-block"><img src="images/mail.png"></li>
-                <li class="inline-block"><p>breakingfree@gmail.com</p></li>
+                <li class="inline-block footerTextMobile"><p>breakingfree@gmail.com</p></li>
             </ul>
 
             <div class="icons col-5">
@@ -92,7 +98,7 @@
         <div class="row">
             <ul class="col-7">
                 <li class="inline-block"><img src="images/Location.png"></li>
-                <li class="inline-block"><p>770 University Ave W Saint Paul, MN 55104 US</p></li>
+                <li class="inline-block footerTextMobile"><p>770 University Ave W Saint Paul, MN 55104 US</p></li>
             </ul>
 
             <ul class="icons col-5">

@@ -7,9 +7,7 @@
     background-color: #AA42A5;
     height: 100px;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
 }
 
 
@@ -27,7 +25,6 @@ ul .donateButton{ color: black !important;
     margin-left: auto;
 }
 
-
 .navButton {
     /* border: 1px solid orange; */
     height: 115px;
@@ -36,6 +33,17 @@ ul .donateButton{ color: black !important;
     justify-content: center;
     padding-top: 10px;
 }
+
+.navigation-Small {
+    background-color: green;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 
 /* FOOTER  */
 
