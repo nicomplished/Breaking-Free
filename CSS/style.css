@@ -115,6 +115,7 @@
 
 .donateButton:hover {
     background-color: #FFD89E;
+    text-decoration: none;
 }
 
 .buttonMoreInfo {
@@ -161,6 +162,11 @@ ul .donateButton{
     align-items: center;
     justify-content: center;
     padding-top: 10px;
+}
+
+.navButton:hover {
+    color: #FFD89E;
+    text-decoration: none;
 }
 
 .navigation-Small {
