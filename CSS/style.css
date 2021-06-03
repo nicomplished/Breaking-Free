@@ -10,13 +10,140 @@
 
 }
 
+.NavItem:visited {
+    color: white;
+}
+
+    /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+    @media screen and (min-width: 801px) {
+        .NavItem {
+            display: block;
+        
+        }
+      }
+      
+      /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+      @media screen and (max-width: 800px) {
+        .NavItem {
+            display: none;
+        }
+      }
+
+      .hamburger {
+        float: right;
+        margin-top: 15px;
+        position: relative;
+    }
+
+     /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+     @media screen and (min-width: 801px) {
+        .hamburger {
+            display: none;
+        
+        }
+      }
+      
+      /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+      @media screen and (max-width: 800px) {
+        .hamburger {
+            display: block;
+        }
+
+      }   
+
+
+    #HamburgerMenu {
+        background-color: #FDC9D8;
+        color: black;
+        height: 340px;
+        width: 250px;
+        z-index: 2;
+        position: absolute;
+        top: 50px;
+        right: 30px;
+        text-decoration: none;
+    }
+
+    .HamburgerMenuText {
+        color: black;
+    }
+
+    .HamburgerMenuText:hover {
+        text-decoration: none;
+        color: #AA42A5;
+    }
+
+
+
+      /* .icon-bar {
+        background-color: #FDC9D8;
+        position: fixed;
+        text-align: center;
+        top: 70%;
+        right: 0%;
+        z-index: 100;
+        transition: width 1s, height 1s;
+      }
+    
+    .icon-bar:hover {
+        background-color: #FFD89E;
+        width: 200px;
+        height: 200px;
+    }
+    
+    .ContactContent {
+        margin: 15px;
+        font-size: 14px;
+        display: inline-block;
+        width: 150px;
+        text-align: left;
+    }
+    
+    .hide{
+        display: none;
+    }
+    
+    .icon-bar:hover .hide{
+        display: block;
+    } */
+
 
 .donateButton {
     background-color: #FDC9D8;
     padding: 15px;
 }
 
-ul .donateButton{ color: black !important;
+.donateButton:hover {
+    background-color: #FFD89E;
+}
+
+.buttonMoreInfo {
+    background-color: #FDC9D8;
+    border: none;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonMoreInfo:hover {
+    background-color: #FFD89E;
+
+}
+
+.buttonApplyNow {
+    background-color: #FDC9D8;
+    border: none;
+    height: 40px;
+}
+
+.buttonApplyNow:hover {
+    background-color: #FFD89E;
+
+}
+
+ul .donateButton{ 
+    color: black !important;
 }
 
 .logo {
@@ -24,6 +151,8 @@ ul .donateButton{ color: black !important;
     padding: 1%;
     margin-left: auto;
 }
+
+
 
 .navButton {
     /* border: 1px solid orange; */
@@ -41,6 +170,62 @@ ul .donateButton{ color: black !important;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 801px) {
+    .icon-bar {
+        width: 150px;
+        height: 50px;
+        font-size: 24px;
+        padding: 8px;
+    }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 800px) {
+    .icon-bar {
+        width: 80px;
+        height: 30px;
+        font-size: 16px;
+        padding: 4px;
+
+    }
+  }
+
+
+.icon-bar {
+    background-color: #FDC9D8;
+    position: fixed;
+    text-align: center;
+    top: 70%;
+    right: 0%;
+    z-index: 100;
+    transition: width 1s, height 1s;
+  }
+
+.icon-bar:hover {
+    background-color: #FFD89E;
+    width: 200px;
+    height: 200px;
+    /* text-align: left; */
+}
+
+.ContactContent {
+    margin: 15px;
+    font-size: 14px;
+    display: inline-block;
+    width: 150px;
+    text-align: left;
+    /* margin-left: 200px; */
+}
+
+.hide{
+    display: none;
+}
+
+.icon-bar:hover .hide{
+    display: block;
 }
 
 
@@ -68,6 +253,7 @@ ul .donateButton{ color: black !important;
     width: 30px;
 }
 
+
 .BoutiqueIcon {
     height: 40px;
     margin-left: 15px;
@@ -93,12 +279,17 @@ ul {
     font-family: 'Raleway', sans-serif;
     font-size: 14pt;
     float: right;
-    color: white;
     font-weight: bolder;
 }
 
+
 li {
     margin-left: 20px;
+    color: white;
+}
+
+li:hover {
+    color: #FFD89E;
 }
 
 h1 {
@@ -120,7 +311,7 @@ h3 {
 
 h4 {
     font-family: 'Raleway', sans-serif;
-    font-size: 14pt;
+    font-size: 12pt;
 }
 
 p {
@@ -128,3 +319,4 @@ p {
     font-size: 12pt;
     color: black;
 }
+

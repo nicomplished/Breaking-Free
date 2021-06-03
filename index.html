@@ -14,6 +14,9 @@
         integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
         crossorigin="anonymous"></script>
 
+        <script src="index.js"></script>
+
+
         <title></title>
 
         <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -23,39 +26,194 @@
         <link href="CSS/style.css" rel="stylesheet" type="text/css">
         <!-- <link href="CSS/styleMobile.css" rel="stylesheet" type="text/css"> -->
         <link href="CSS/styleBig.css" rel="stylesheet" type="text/css">
-
-        
-
+        <link href="CSS/styleHome.css" rel="stylesheet" type="text/css">
 
 </head>
 
 <body>
 
+
+
     <!-- NAV HERE -->
 
-                <nav class="inline-block navigation navigationWeb navigationMobile">
-                    
-                    <img src="images/Logo with Name-white.png" class="inline-block logo logoMobile" style="min-width: 170px;">
-                    <img src="images/hamburger.png" class="inline-block hamburger hamburgerWeb">
+    <nav class="inline-block navigation navigationWeb navigationMobile">
+
+<div class="container">
+    <div class="row">           
+        <a href="index.html" class="col-2"><img src="images/Logo with Name-white.png" class="inline-block logo logoMobile" style="min-width: 170px;"></a>
+        <div class="col-8 hamburger"></div>
+        <!-- <img src="images/hamburger.png" class="col-2 inline-block hamburger" height="30px"> -->
+        <!-- <div class="HamburgerDropdown col-3"></div> -->
+
+        <a href="javascript:showhide('HamburgerMenu')" class="col-1 inline-block hamburger" height="30px">
+            <img src="images/hamburger.png" >
+        </a>
+    
+
+        <div id="HamburgerMenu" style="display:none;">
+                <br>
+                <a><h3 class="HamburgerMenuText">OUR PROGRAMS</h3></a>
+                <br>
+                <a><h3 class="HamburgerMenuText">RESOURCES</h3></a>
+                <br>
+                <a><h3 class="HamburgerMenuText">GET INVOLVED</h3></a>
+                <br>
+                <a href="ourstory.html" class="HamburgerMenuText"><h3>ABOUT US</h3></a>
+                <br>
+                <a href="donate.html" class="HamburgerMenuText"><h3>DONATE</h3></a>
+                <br>
+        </div>
 
 
-                    <ul class="inline-block NavContent HideMobile">
-                        <li class="inline-block"><a class="navButton inline-block HideMobile">OUR PROGRAMS</a></li>
-                        <li class="inline-block"><a class="navButton inline-block HideMobile">RESOURCES</a></li>
-                        <li class="inline-block"><a class="navButton inline-block HideMobile">GET INVOLVED</a></li>
-                        <li class="inline-block"><a class="navButton inline-block HideMobile">ABOUT US</a></li>
-                        <li class="inline-block"><a class="donateButton inline-block HideMobile">DONATE</a></li>
-                    </ul>
 
+         <ul class="inline-block NavContent HideMobile NavItem col-10">
+             <li class="inline-block"><a class="navButton inline-block HideMobile navMobile NavItem">OUR PROGRAMS</a></li>
+             <li class="inline-block"><a class="navButton inline-block HideMobile navMobile NavItem">RESOURCES</a></li>
+             <li class="inline-block"><a class="navButton inli
+                ne-block HideMobile navMobile NavItem">GET INVOLVED</a></li>
+             <li class="inline-block"><a href="ourstory.html" class="navButton inline-block HideMobile navMobile NavItem">ABOUT US</a></li>
+             <li class="inline-block donateMobile1"><a href="donate.html" class="donateButton inline-block HideMobile donateMobile2">DONATE</a></li>
+         </ul>
+     </nav>
+    </div>
+</div>
+                <div class="banner">
+                    <h4>You are not alone. We can help. CALL NOW 651-645-6557 • AFTER HOURS CALL 651-219-9287</h4>
 
-                </nav>
+                </div>
         
 
+    <!-- STICKY CONTACT BUTTON -->
+
+    <div class="icon-bar">
+        <a>CONTACT</a>
+        <br>
+    
+        <div class="ContactContent hide">
+            <a>651-645-6557 Daytime</a>
+            <br><br>
+            <a>651-219-9287 After hours & weekends</a>
+        </div>
+    </div>
 
 
     <!-- BODY CONTENT HERE-->
-        <section></section>
 
+
+    <!-- HERO IMG -->
+
+        <div class="container MobileTop">
+            <div class="row">
+                <img src="images/Home1.png" class="col-4 ImageHeight">
+                <h2 class="col-4 HeroText">Breaking Free helps women escape sex trafficking and prostitution</h2>
+                <img src="images/Home2.png" class="col-4 ImageHeight">
+            </div>
+
+
+     <!-- PARAGRAPHS W IMGS -->
+
+        <section class="row Spacing">
+            <h2 class="inline-block col-lg-8 col-md-8 col-sm-12 TextAlignment">Heading</h2>
+            <p class="inline-block col-lg-8 col-md-8 col-sm-12 TextAlignment">Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit. Risus aliquam posuere semper felis. Vitae eu, ut amet vitae augue ornare morbi mi. Amet a proin phasellus
+                arcu suscipit convallis nibh arcu. Ligula amet, venenatis enim tempor et tincidunt. Vel bibendum neque, fames
+                mauris, ut tortor libero quam nullam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus aliquam
+                posuere semper felis. Vitae eu, ut amet vitae augue ornare morbi mi. Amet a proin phasellus arcu suscipit
+                convallis nibh arcu. Ligula amet, venenatis enim tempor et tincidunt. Vel bibendum neque, fames mauris, ut
+                tortor libero quam nullam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus aliquam posuere semper
+                felis. Vitae eu, ut amet vitae augue ornare morbi mi. Amet a proin phasellus arcu suscipit convallis nibh arcu.
+                Ligula amet, venenatis enim tempor et tincidunt. Vel bibendum neque, fames mauris, ut tortor libero quam nullam.
+            </p>
+            <img src="images/Home3.png" class="inline-block col-lg-4 col-md-8 col-sm-12 ImageHeight">
+        </section>
+        
+        <section class="row Spacing">
+            <img src="images/Home 3-2.png" class="inline-block col-lg-4 col-md-8 col-sm-12 ImageHeight">
+            <div class="inline-block col-lg-8 col-md-8 col-sm-12">
+                <h2 class="inline-block TextAlignment">Heading</h2>
+                <p class="inline-block TextAlignment">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus aliquam
+                    posuere semper felis. Vitae eu, ut amet vitae augue ornare morbi mi. Amet a proin phasellus arcu suscipit
+                    convallis nibh arcu. Ligula amet, venenatis enim tempor et tincidunt. Vel bibendum neque, fames mauris, ut
+                    tortor libero quam nullam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus aliquam posuere
+                    semper felis. Vitae eu, ut amet vitae augue ornare morbi mi. Amet a proin phasellus arcu suscipit convallis
+                    nibh arcu. Ligula amet, venenatis enim tempor et tincidunt. Vel bibendum neque, fames mauris, ut tortor
+                    libero quam nullam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus aliquam posuere semper
+                    felis. Vitae eu, ut amet vitae augue ornare morbi mi. Amet a proin phasellus arcu suscipit convallis nibh
+                    arcu. Ligula amet, venenatis enim tempor et tincidunt. Vel bibendum neque, fames mauris, ut tortor libero
+                    quam nullam.</p>
+            </div>
+        </section>
+        </div>
+
+
+    <!-- PURPLE SECTION -->
+
+    <section class="PurpleSection Spacing">
+        <h2 class="PurpleSectionText">RECOGNITION</h2>
+        <h2 class="PurpleSectionTextCentered">Winner of the 2020 Award
+            <br>“Special Project In-Depth Report” 
+            <br>from the Professional Journalism Society</h2>
+    </section>
+
+
+<!-- STATS -->
+
+    <section class="Spacing">
+        <div class="container">
+            <h2 class="col-12 TextAlignment">ACCOMPLISHMENTS</h2>
+
+
+            <div class="row SpaceTop">
+                <div class="col-lg-4 col-md-12 col-sm-12 ImageHeight">
+                    <img src="images/Home4.png">
+                    <h2>Stat 1</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+
+                <div class="col-lg-4 col-md-12 col-sm-12 ImageHeight">
+                    <img src="images/Home5.png">
+                    <h2>Stat 2</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+
+                <div class="col-lg-4 col-md-12 col-sm-12 ImageHeight">
+                    <img src="images/Home6.png">
+                    <h2>Stat 3</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>    
+
+        </div>    
+
+    </section>
+
+        <!-- 4 IMGS AT BOTTOM -->
+
+
+    <section class="PurpleSection2 Spacing">
+        <h2 class="PurpleSectionText col-12">RECENT ARTICLES</h2>
+
+        <div class="container col-3 float-left">
+            <img src="images/Home11.png" style="width:100%; max-height: 450px; max-width: 237px;">
+            <div class="centered whiteText">Breaking Free Movement</div>
+        </div>
+
+        <div class="container col-3 float-left">
+            <img src="images/Home12.png" style="width:100%; max-height: 450px; max-width: 237px">
+            <div class="centered whiteText">May ‘21 Street Outreach</div>
+        </div>
+
+        <div class="container col-3 float-left">
+            <img src="images/Home13.png" style="width:100%; max-height: 450px; max-width: 237px">
+            <div class="centered whiteText">Sex Trafficking rose in 2021</div>
+        </div>
+
+        <div class="container col-3 float-left">
+            <img src="images/Home14.png" style="width:100%; max-height: 450px; max-width: 237px">
+            <div class="centered whiteText">The latest from Breaking Free</div>
+        </div>
+
+    </section>
 
 
 
@@ -74,11 +232,11 @@
             </ul>
 
             <ul class="icons col-5">
-                <li class="inline-block"> <img src="images/FB.png" class="socialMedia socialMediaMobile"> </li>
-                <li class="inline-block"> <img src="images/IG.png" class="socialMedia"> </li>
-                <li class="inline-block"> <img src="images/LI.png" class="socialMedia"> </li>
-                <li class="inline-block"> <img src="images/Twitter.png" class="socialMedia"> </li>
-                <li class="inline-block"> <img src="images/YT.png" class="socialMedia"> </li>
+                <li class="inline-block"><a href="https://www.facebook.com/BreakingFreeStP/" target="_blank"><img src="images/FB.png" class="socialMedia socialMediaMobile"></a></li>
+                <li class="inline-block"><a href="https://www.instagram.com/breakingfreemn/" target="_blank"><img src="images/IG.png" class="socialMedia"></a></li>
+                <li class="inline-block"><a href="https://www.linkedin.com/in/breaking-free-st-paul-mn-214572205/" target="_blank"><img src="images/LI.png" class="socialMedia"></a></li>
+                <li class="inline-block"><a href="https://twitter.com/BreakingFreeStP" target="_blank"><img src="images/Twitter.png" class="socialMedia"></a></li>
+                <li class="inline-block"><a href="https://www.youtube.com/channel/UCqQJP5dqWoOqKiC17d9ZlXQ?view_as=subscriber" target="_blank"><img src="images/YT.png" class="socialMedia"></a></li>
             </ul>
          </div>
 

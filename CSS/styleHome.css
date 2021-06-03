@@ -1,0 +1,277 @@
+
+    /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+    .navMobile {
+      height: 30px;
+    }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 600px) {
+    .navMobile {
+      height: 20px;
+      margin: 8px;
+      font-size: 12pt;
+    }
+  }
+
+      /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+    .donateMobile1 {
+      height: 30px;
+    }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 600px) {
+    .donateMobile1 {
+      font-size: 12pt;
+    }
+  }
+
+    /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+    @media screen and (min-width: 601px) {
+        .donateMobile2 {
+            height: 60px;
+        }
+    }
+          
+    /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+    @media screen and (max-width: 600px) {
+        .donateMobile2 {
+              height: 10px;
+              margin: 8px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            }
+        }
+
+
+
+.banner {
+    height: 40px;
+    text-align: center;
+    padding: 5px;
+    background-color: #FFD89E;
+    width: 100%;
+}
+
+
+
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+    .banner {
+      height: 40px;
+      
+    }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 600px) {
+    .banner {
+      height: 80px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+
+  .HeroText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 801px) {
+    .HeroText {
+        font-size: 24pt;
+    }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 800px) {
+    .HeroText {
+        font-size: 16pt;
+    }
+  }
+
+  /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 801px) {
+    .MobileTop {
+        margin-top: 0;
+    }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 800px) {
+    .MobileTop {
+        margin-top: 30px;
+    }
+  }
+
+
+
+  .TextAlignment {
+      text-align: left;
+      float: left;
+  }
+
+  .centeredIMG {
+    width: 100%;
+  }
+
+
+
+/* CARD */
+
+.ImageHeight {
+    height: 100%;
+    /* width: 100%; */
+}
+
+.ImageHeight2 {
+    width: 50%;
+    /* height: 570px; */
+    margin: 40px;
+}
+
+
+
+.navigationWeb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hamburgerWeb{
+    display: none;
+}
+
+
+.Spacing {
+    margin-top: 120px;
+}
+
+
+  /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+  @media screen and (min-width: 801px) {
+    .Spacing {
+        margin-top: 120px;
+    }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 800px) {
+    .Spacing {
+        margin-top: 60px;
+    }
+  }
+
+.SpaceTop{
+    margin-top: 60px;
+}
+
+.PurpleSection {
+    background-color: #AA42A5;
+}
+
+.PurpleSection2 {
+    background-color: #AA42A5;
+    height: 600px;
+}
+
+.purpleBG {
+    background-color: #AA42A5;
+    padding: 30px;
+}
+
+
+
+
+  /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+  @media screen and (min-width: 701px) {
+    .PurpleSection2 {
+        background-color: #AA42A5;
+        height: 600px;
+    
+    }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 700px) {
+    .PurpleSection2 {
+        margin-top: 30px;
+        height: 400px;
+    }
+  }
+
+
+
+.PurpleSectionText{
+    color: white;
+    padding: 30px;
+    margin-left: 60px;
+}
+
+.PurpleSectionText2{
+    color: white;
+}
+
+.PurpleSectionText3{
+    color: white;
+    margin-bottom: 30px;
+}
+
+
+.PurpleSectionTextCentered{
+    text-align: center;
+    color: white;
+    line-height: 70px;
+    padding-bottom: 30px;
+
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18pt;
+    font-weight: 1000;
+  }
+
+    /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+    @media screen and (min-width: 801px) {
+        .container {
+            font-size: 18pt;
+        
+        }
+      }
+      
+      /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+      @media screen and (max-width: 800px) {
+        .container {
+            font-size: 14pt;
+        }
+      }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.whiteText {
+    color: black;
+}  
+
+.whiteText:hover {
+    color: white;
+} 
+
